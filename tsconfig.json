@@ -6,11 +6,11 @@
         "moduleResolution": "NodeNext",
         "removeComments": true,
         "sourceMap": false,
-        "baseUrl": "src",
+        "baseUrl": "server",
         "noUnusedParameters": true,
         
         "outDir": "./dist",
-        "rootDir": "./src",
+        "rootDir": "server",
         "resolveJsonModule": true,
 
         "skipLibCheck": true,
@@ -18,7 +18,7 @@
         // "checkJs": true,
         "strict": false,
     },
-    "include":["src/**/*"],
-    "exclude":["node_modules", "dist/*", "src/static"],
+    "include":["server/**/*"],
+    "exclude":["node_modules", "dist/*", "server/static"],
     "lib": ["es6"]
 }
